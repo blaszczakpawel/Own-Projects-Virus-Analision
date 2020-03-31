@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <virus name="DFG-1" data="18.02.1999" place="Poland">
+        <host name="people">
+            <plague road="air" distance="1.5" chance="0.4"/>
+            <plague road="droplet" distance="0.2" chance="0.8"/>
+            <attack name="lungs" annoyance="0.4" killPower="0.2">
+                <age from="0" to="2">0.04</age>
+                <age from="3" to="4">0.05</age>
+                <age from="6" to="10">0.1</age>
+                <age from="11" to="16">0.12</age>
+                <age from="17" to="20">0.13</age>
+                <age from="21" to="30">0.2</age>
+                <age from="31" to="40">0.25</age>
+                <age from="41" to="50">0.29</age>
+                <age from="51" to="60">0.39</age>
+                <age from="61" to="70">0.47</age>
+                <age from="71" to="80">0.65</age>
+                <age from="81" to="90">0.82</age>
+                <age from="91" to="100">0.98</age>
+            </attack>
+            <attack name="bones" annoyance="0.6" killPower="0.05">
+                <age from="0" to="2">0.04</age>
+                <age from="3" to="4">0.05</age>
+                <age from="6" to="10">0.1</age>
+                <age from="11" to="16">0.12</age>
+                <age from="17" to="20">0.2</age>
+                <age from="21" to="30">0.23</age>
+                <age from="31" to="40">0.30</age>
+                <age from="41" to="50">0.34</age>
+                <age from="51" to="60">0.42</age>
+                <age from="61" to="70">0.50</age>
+                <age from="71" to="80">0.70</age>
+                <age from="81" to="90">0.90</age>
+                <age from="91" to="100">0.95</age>
+            </attack>
+        </host>
+        <host name="birds">
+            <plague road="air" distance="1.5" chance="0.4"/>
+            <plague road="droplet" distance="0.2" chance="0.9"/>
+            <attack name="lungs" annoyance="0.3" killPower="0.05">
+                <age from="0" to="1">0.01</age>
+                <age from="2" to="3">0.02</age>
+                <age from="4" to="5">0.03</age>
+                <age from="6" to="7">0.04</age>
+                <age from="8" to="9">0.05</age>
+            </attack>
+        </host>
+        <resistance name="temperature" from="-20" to="120"/>
+        <resistance name="humidity" from="5" to="95"/>
+        <resistance name="liveAwayFromHost" from="0.4" to="1"/>
+        <resistance name="alkohol" from="0" to="50"/>
+        <resistance name="medicine" from="0" to="0.6"/>
+        <stat name="incubationTime">8</stat>
+        <stat name="ilnesTime">12</stat>
+    </virus>
+</data>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <continent name="Europa" x="1" y="1">
+        <continentStat name="area">10180000</continentStat>
+        <continentStat name="people">741400000</continentStat>
+        <country name="Poland" x="1" y="1">
+            <humanAtribute name="lungs" type="negativ" power="0.3" frequency="0.07"/>
+            <humanAtribiut name="heart" type="positiv" power="0.2" frequency="0.08"/>
+            <countryStat name="area">312696</countryStat>
+            <countryStat name="people">37980000</countryStat>
+            <land name="Malopolska" x="1" y="1">
+                <landStat name="area">15183</landStat>
+                <landStat name="people">3349000</landStat>
+                <city name="Krakow" x="1" y="1">
+                    <cityStat name="area">327</cityStat>
+                    <cityStat name="people">774839</cityStat>
+                </city>
+                <communicationPort name="KRK" type="train" x="1" y="1"/>
+                <communicationPort name="KRK" type="plane" x="1" y="1"/>
+                <communicationPort name="KRK" type="boat" x="1" y="1"/>
+                <communicationPort name="KRK" type="bus" x="1" y="1"/>
+            </land>
+        </country>
+    </continent>
+</data>
